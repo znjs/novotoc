@@ -1,5 +1,4 @@
 export const ListItem = ({ item }) => {
-  console.log(item);
   return !!item ? (
     <div className="flex items-center border-b-2 border-gray-200 my-2 py-4">
       <input type="checkbox" className="mx-2 w-16" />
